@@ -1,11 +1,5 @@
-def greet_names():
-    names = ["Rubeen", "Muri", "William", "Negus", "Byron"]
-    greetings = []
+def greet(name):
+    print("Hello", name)
 
-    for name in names:
-        greetings.append(f"Hello, {name}")
-
-    return greetings
-
-for greeting in greet_names():
-    print(greeting)
+greet('Jack')
+greet('Jill')
